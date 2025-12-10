@@ -3,6 +3,7 @@ resolver = "2"
 members = [
   "core-concepts/account/01-create-address",
   "core-concepts/account/02-get-account-info",
+  "core-concepts/account/03-create-mint-account",
 ]
 
 [workspace.package]
@@ -14,6 +15,8 @@ edition = "2024"
 solana-sdk = "3.0.0"
 solana-client = "3.1.4"
 solana-commitment-config = "3.1.0"
+solana-system-interface = "3.0.0"
+spl-token-2022-interface = "2.1.0"
 
 tokio = "1.48.0"
 anyhow = "1.0.100"
