@@ -1,0 +1,8 @@
+[package]
+name = "create-keypair"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+solana-sdk = { workspace = true }
+tokio = { workspace = true, features = ["full"] }

@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["tutorial/01-create-keypair"]
+
+[workspace.package]
+version = "0.0.0"
+# https://doc.rust-lang.org/edition-guide/rust-2024/index.html
+edition = "2024"
+
+[workspace.dependencies]
+solana-sdk = "3.0.0"
+tokio = "1.48.0"
