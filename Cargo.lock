@@ -581,6 +581,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "create-wallet-account"
+version = "0.0.0"
+dependencies = [
+ "anyhow",
+ "solana-client",
+ "solana-commitment-config",
+ "solana-sdk",
+ "tokio",
+]
+
+[[package]]
 name = "crossbeam-channel"
 version = "0.5.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
