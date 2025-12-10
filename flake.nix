@@ -1,5 +1,5 @@
 {
-  description = "libssh dev shell";
+  description = "solana leanring dev shell";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
