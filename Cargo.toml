@@ -1,6 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["core-concepts/account/01-create-address"]
+members = [
+  "core-concepts/account/01-create-address",
+  "core-concepts/account/02-get-account-info",
+]
 
 [workspace.package]
 version = "0.0.0"
@@ -9,4 +12,8 @@ edition = "2024"
 
 [workspace.dependencies]
 solana-sdk = "3.0.0"
+solana-client = "3.1.4"
+solana-commitment-config = "3.1.0"
+
 tokio = "1.48.0"
+anyhow = "1.0.100"

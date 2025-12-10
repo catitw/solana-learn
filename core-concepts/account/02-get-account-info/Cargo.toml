@@ -1,0 +1,12 @@
+[package]
+name = "get-account-info"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tokio = { workspace = true, features = ["full"] }
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+solana-commitment-config = "3.1.0"
+
+anyhow = { workspace = true }
