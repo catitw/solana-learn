@@ -72,6 +72,8 @@ async fn main() -> Result<()> {
     // Send and confirm transaction
     let transaction_signature = client.send_and_confirm_transaction(&transaction).await?;
 
+    println!("2022 program account id: {}", token_2022_program_id());
+
     println!("Mint Address: {}", mint.pubkey());
     println!("Transaction Signature: {}", transaction_signature);
 

@@ -5,6 +5,7 @@ members = [
   "core-concepts/account/02-get-account-info",
   "core-concepts/account/03-create-mint-account",
   "core-concepts/account/04-create-wallet-account",
+  "core-concepts/account/05-get-sysvar-info",
 ]
 
 [workspace.package]
@@ -21,3 +22,4 @@ spl-token-2022-interface = "2.1.0"
 
 tokio = "1.48.0"
 anyhow = "1.0.100"
+bincode = "=1.3.3"

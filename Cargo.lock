@@ -1156,6 +1156,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "get-sysvar-info"
+version = "0.0.0"
+dependencies = [
+ "anyhow",
+ "bincode",
+ "solana-client",
+ "solana-commitment-config",
+ "solana-sdk",
+ "solana-system-interface 3.0.0",
+ "spl-token-2022-interface",
+ "tokio",
+]
+
+[[package]]
 name = "gethostname"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
